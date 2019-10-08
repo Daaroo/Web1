@@ -1,0 +1,218 @@
+
+.main
+{
+
+    font-size: x-large;
+    color: rgba(255, 255, 255, 0.4);
+
+}
+.fivepixel
+{
+    margin: 5px 5px;
+}
+.mainimg
+{
+    height: 80vh;
+    width: 100%;
+}
+.text
+{
+    font-size: 40px;
+}
+.mediumtext
+{
+    font-size: 20px;
+}
+
+.shadows
+{
+    text-shadow: 2px 2px 4px #CCCCCC
+}
+.navbar
+
+{
+    background-color: rgba(255, 255, 255, 0.4);
+
+}
+.navbar-shrink
+{
+    background-color: white;
+ 
+}
+li{
+    list-style-type: none;
+}
+.navIcon
+{
+    height: 48px;
+    width: 48px;
+}
+#author a:link
+{
+    text-decoration: none;
+    color: black
+}
+
+.img-thumbnail
+{
+    width: 250px;
+    height: 250px;
+}
+.messanimation
+{
+    animation: 3s messanimation infinite alternate-reverse
+}
+@keyframes messanimation
+{
+    from{
+        transform: scale(1)
+    }
+    to{
+        transform: scale(1.2)
+    }
+}
+.navImage
+{
+    width: 200px;
+    height: 200px;
+}
+
+.fixed-contact
+{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+
+.thumb-messneger
+{
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+.contactactive:hover
+{
+cursor: grab
+}
+
+.border0
+{
+    border: 0px;
+}
+.scheduler
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.imagesizer
+{
+    width: 200px;
+    height: 200px;
+}
+.slideShow
+{
+    display: none;
+}
+
+@keyframes coloropacity{
+    from{    background-color: rgba(000, 000, 000, 0);}
+    to{    background-color: rgba(000, 000, 000, 0.2);}
+}
+.zadzwon img a
+{
+    text-decoration: underline;
+    color: black;
+}
+.fade {
+    animation-name: fade;
+    animation-duration:5s;
+  }
+  @keyframes fade {
+    from {opacity: .3} 
+    to {opacity: 1}
+  }
+
+.bgfooter
+{
+    background: #f4f6f8
+}
+  .author a:active
+  {
+      text-decoration: none
+  }
+.item:hover
+{
+    background-color: rgba(000, 000, 000, 0.2);
+    cursor: pointer;
+    animation-name: coloropacity;
+    animation-duration: 1s;
+}
+.footerimg
+{
+cursor: pointer;
+max-height: 80px;
+}
+
+.imglicen
+{
+    font-size: small;
+    font-weight: 500;
+}
+
+.contactimg
+{
+    width: 32px;
+    height: 32px;
+}
+.pad32
+{
+    padding-left: 37px;
+}
+@media(max-width: 768px)
+{
+    .mainimg
+    {
+        height: 60vh;
+        width: 100%;
+    }
+}
+@media (max-width: 575.98px) {
+    .mainimg
+    {
+        height: 50vh;
+        width: 100%;
+    }
+    .fb-page
+{
+    width: 180px;
+    height: 120px;
+}
+.fb-page
+{
+    width: 100vh;
+    height: 120px;
+}
+.fb-page, 
+.fb-page span, 
+.fb-page span iframe[style] { 
+    width: 100% !important; 
+}
+
+}
+
+
+.fb-page
+{
+    width: 100vh;
+    height: 240px;
+}.fb-page, 
+.fb-page span, 
+.fb-page span iframe[style] { 
+    width: 100% !important; 
+}
+.fb-page.fb_iframe_widget {overflow: hidden;}
+html,body{
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
